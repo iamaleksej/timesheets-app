@@ -1,0 +1,149 @@
+//reset styles
+
+*, *:before, *:after
+   box-sizing: border-box
+
+html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video
+   margin: 0
+   padding: 0
+   border: 0
+   font-size: 100%
+   font: inherit
+   vertical-align: baseline
+   text-rendering: optimizeLegibility
+   -webkit-font-smoothing: antialiased
+   text-size-adjust: none
+
+footer, header, nav, section, main
+   display: block
+
+body
+   line-height: 1
+
+ol, ul
+   list-style: none
+
+blockquote, q
+   quotes: none
+
+blockquote:before, blockquote:after, q:before, q:after
+   content: ''
+   content: none
+
+table
+   border-collapse: collapse
+   border-spacing: 0
+
+input
+   -webkit-appearance: none
+   border-radius: 0
+
+#wrapper
+   background: #E5E5E5
+   color: #000
+   overflow-x: hidden
+   font-family: 'Montserrat', sans-serif
+   font-size: 15px
+   height: 100vh
+.container
+   max-width: 1160px
+   height: 100%
+   padding: 20px
+   margin: auto
+
+.title
+   font-size: 40px
+   margin-bottom: 20px
+.bold
+   font-weight: 600
+
+.flex_jcsb
+   display: flex
+   justify-content: space-between
+
+table, th, td
+   border: 1px solid
+   padding: 5px
+
+.modal
+   width: 500px
+   height: 300px
+   background-color: #fff
+   display: flex
+   border: 1px solid #000
+   border-radius: 20px
+   margin: 200px auto
+   align-items: center
+
+table
+   width: 100%
+   border: 5px solid #fff
+   border-top: 5px solid #fff
+   border-bottom: 3px solid #fff
+   border-collapse: collapse
+   outline: 3px solid #060539
+   font-size: 15px
+   background: #fff!important
+
+table th
+   font-weight: bold
+   padding: 7px
+   color: #fff
+   background: #060539
+   border: none
+   text-align: left
+   font-size: 15px
+   border-top: 3px solid #fff
+   border-bottom: 3px solid #060539
+
+table td
+   padding: 7px
+   border: none
+   border-top: 3px solid #fff
+   border-bottom: 3px solid #fff
+   font-size: 15px
+
+table tbody tr:nth-child(even)
+   background: #f8f8f8!important
+select
+   cursor: pointer
+input
+   display: block
+   width: 100%
+   height: calc(2.25rem + 2px)
+   padding: 0.375rem 0.75rem
+   font-family: inherit
+   font-size: 1rem
+   font-weight: 400
+   line-height: 1.5
+   color: #000
+   background-color: #fff
+   background-clip: padding-box
+   border: 1px solid #bdbdbd
+   border-radius: 0.25rem
+   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out
+   &::placeholder
+      color: #000
+      opacity: 0.4
+   &:focus
+      color: #000
+      background-color: #fff
+      border-color: rgb(6, 5, 57)
+      outline: 0
+      box-shadow: 0 0 0 0.2rem rgba(6, 5, 57, 0.25)
+.btn
+   background-color: #060539
+   font-weight: 600
+   color: #fff
+   border: 0
+   border-radius: 5px
+   padding: 5px 10px
+   cursor: pointer
+   &:hover
+      color: #060539
+      background-color: #fff
+      outline: 2px solid #060539
+
+.errmsg
+   color: #f00
+   font-weight: 600
