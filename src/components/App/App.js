@@ -14,7 +14,7 @@ const App = () => {
       <main role="main" className="container">
          <Routes>npm run build
             <Route path="/timesheets-app" element={<Layout />}>
-               <Route path="/timesheets-app" element={<Navigate to="/auth" />} />
+               <Route path="/timesheets-app" element={<Navigate to="/timesheets-app/auth" />} />
                <Route path="/timesheets-app/auth" element={<Auth />} />
 
                <Route element={<RequireAuth />}>

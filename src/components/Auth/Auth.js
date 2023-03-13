@@ -35,7 +35,7 @@ const Auth = () => {
          window.localStorage.setItem('refresh_token', JSON.stringify(userData.refresh))
          setUsername('')
          setPassword('')
-         navigate('/home')
+         navigate('/timesheets-app/home')
       } catch (err) {
          console.log(err);
          if (err?.status === 401) {
