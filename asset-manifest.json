@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/timesheets-app/static/css/main.929509c3.css",
-    "main.js": "/timesheets-app/static/js/main.443397ca.js",
+    "main.js": "/timesheets-app/static/js/main.fa990436.js",
     "index.html": "/timesheets-app/index.html",
     "main.929509c3.css.map": "/timesheets-app/static/css/main.929509c3.css.map",
-    "main.443397ca.js.map": "/timesheets-app/static/js/main.443397ca.js.map"
+    "main.fa990436.js.map": "/timesheets-app/static/js/main.fa990436.js.map"
   },
   "entrypoints": [
     "static/css/main.929509c3.css",
-    "static/js/main.443397ca.js"
+    "static/js/main.fa990436.js"
   ]
 }
